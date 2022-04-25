@@ -11,7 +11,7 @@ body{
     background-color: #001C55;
 }
 .contenedor{
-    width: 1000px;
+    width: 70%;
     height: 500px;
     background-color:white;
     text-align: center;
@@ -44,12 +44,15 @@ h1{
     font-family: 'Roboto Mono', monospace;
  }
  .imagen{
-     width: 420px;
-     height: auto;
+     width: 30%;
+     max-width: 440px;
      float: right;
      border-radius: 20px;
  }
  header,.texto,.pie,h2{
      background-color: white;
      
+ }
+ header{
+     width: 100%;
  }
