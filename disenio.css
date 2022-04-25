@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Roboto+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+    background-color: #001C55;
+}
+.contenedor{
+    width: 1000px;
+    height: 500px;
+    background-color:white;
+    text-align: center;
+    border: 2px;
+    margin: auto;
+    border: 10px solid black;
+}
+.texto{
+    font-family: 'Akshar', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+.pie{
+    font-family: 'Akshar', sans-serif;
+    text-align: center;
+   border-radius: 20px;
+
+}
+h2{
+   text-align: center;
+   border-bottom: 2px solid black;
+   font-family: 'Roboto Mono', monospace;
+   border-radius: 20px;
+}
+h1{
+    background-color: aqua;
+    text-align: center;
+    border-bottom: 2px solid black;
+    font-family: 'Roboto Mono', monospace;
+ }
+ .imagen{
+     width: 420px;
+     height: auto;
+     float: right;
+     border-radius: 20px;
+ }
+ header,.texto,.pie,h2{
+     background-color: white;
+     
+ }
